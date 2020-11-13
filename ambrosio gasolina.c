@@ -12,7 +12,7 @@ int main(){
         if(d%10==0){
             l--;    // l-- é equivalente a l = l - 1, caso a divisao for exata então não era pra eu ter somado 1 litro entao eu ajusto de volta
         }
-        r-=g*(d/10);
+        r-=g*l;
         if(r<0){ // 
             puts("Nao pode viajar."); // puts é um printf mais simples
         }
